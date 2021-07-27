@@ -178,6 +178,15 @@ footer #nondisclaimer .social .fa-instagram {
     font-weight: bold;
     background: #bde1ff;
 }
+#activities td:not(:first-child):hover {
+    cursor: pointer;
+}
+.redtest {color: red;}
+.selected {
+    color:white;
+    font-weight: bold;
+    background-color: yellowgreen;
+}
 /* cliffs */
 #cliffs table {
     width: auto;
