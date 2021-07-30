@@ -181,6 +181,30 @@ footer #nondisclaimer .social .fa-instagram {
 #activities td:not(:first-child):hover {
     cursor: pointer;
 }
+#activities main #displaySelected {
+    visibility: hidden;
+    margin: 0 auto;
+    width: 600px;
+    border: 2px solid #9ed034;
+    padding: 0.75em;
+}
+#acitivities main #displaySelected #result, #activities main #displaySelected #sendinfo {
+    display: inline-block;
+    margin: 0;
+}
+#activities main #result {
+    min-height: 50px;
+    width: 300px;
+    padding: 0;
+}
+#activities main #result h4 {
+    margin-bottom: 1em;
+    font-size: 1.15em;
+}
+#activities main #displaySelected #sendinfo input[type="email"] {
+    width: 200px;
+}
+
 .redtest {color: red;}
 .selected {
     color:white;
@@ -206,63 +230,63 @@ footer #nondisclaimer .social .fa-instagram {
     font-size: 16px;
 }
 /* contact styling */
-h1 {
+#contact h1 {
     padding-bottom: 0.5em;
     color: #9ed034;
 }
-.contactinfo, p {
+#contact .contactinfo, p {
     padding-bottom: 1em;
 }
-.contactinfo span:first-child{
+#contact .contactinfo span:first-child{
     font-weight: bold;
 }
-fieldset {
+#contact fieldset {
     border-color: #9ed034;
     border-radius: 5px;
     margin-bottom: 20px;
     width: 1100px;
 }
-legend {
+#contact legend {
     color: #4977D1;
     font-size: larger;
     font-weight: bold;
     text-transform: uppercase;
     border-color: #9ed034;
 }
-.textbox label, .commentbox label {
+#contact .textbox label, .commentbox label {
     font-weight: bold;
     display: block;
     margin: 15px 0 0 30px;
 }
-.textbox input {
+#contact .textbox input {
     width: 900px;
     height: 25px;
     margin: 0 0 0 30px;
     padding-left: 10px;
 }
-textarea {
+#contact textarea {
     width: 900px;
     height: 200px;
     margin: 0 0 0 30px;
     padding: 15px 10px;
     resize: vertical;
 }
-.radios {
+#contact .radios {
     display: block;
 }
-.radios label, .selectmenu label {
+#contact .radios label, .selectmenu label {
     font-weight: bold;
     padding-left: 30px;
 }
-input[type="radio"] { /*attribute selector*/
+#contact input[type="radio"] { /*attribute selector*/
     width: 25px;
     margin: 20px 0px;
 }
-select {
+#contact select {
     width: 150px;
     padding-left: 35px;
 }
-button{
+#contact button{
     display:block;
     margin: 20px 0 10px 840px;
     width: 120px;
